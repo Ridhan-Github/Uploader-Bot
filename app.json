@@ -55,12 +55,6 @@
       "value": "",
       "required": false
     },
-    "UPDATES_CHANNEL": {
-      "description": "Your Updates Channel ID To ForceSub , Must Add Bots As Admin in Update Channel",
-      "value": "",
-      "required": false
-    }
-  },
   "addons": [
   ],
   "buildpacks": [{
