@@ -33,7 +33,7 @@ Pᴏᴡᴇʀᴇᴅ ʙʏ : [ᴅɪsɴᴇʏ ʙᴏᴛs](https://telegram.me/Disney_B
  
 """
     ABOUT_TEXT = """
-**Mʏ ɴᴀᴍᴇ** : [ᴜʀʟ ᴜᴘʟᴏᴀᴅᴇʀ ᴘʀᴏ](https://t.me/UploaderrXRobot)
+**Mʏ ɴᴀᴍᴇ** : [ᴜʀʟ ᴜᴘʟᴏᴀᴅᴇʀ ᴘʀᴏ](http://t.me/UploaderPro4uBot)
 
 **Cʜᴀɴɴᴇʟ** : [ᴅɪsɴᴇʏ ʙᴏᴛs](https://t.me/Disney_Bots)
 
