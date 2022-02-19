@@ -21,11 +21,14 @@ from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 from pyrogram.errors import UserNotParticipant
 from .functions.ran_text import random_char
 
-
 @Client.on_message(filters.private & filters.regex(pattern=".*https.*"))
 async def echo(bot, update):
     await add_user_to_database(bot, update)
     logger.info(update.from_user)
+    if Config.UPDATES_CHANNEL:
+      fsub = await handle_force_subscribe(bot, update)
+      if fsub == 400:
+        return
     url = update.text
     youtube_dl_username = None
     youtube_dl_password = None
@@ -94,7 +97,7 @@ async def echo(bot, update):
     logger.info(command_to_exec)
     chk = await bot.send_message(
             chat_id=update.chat.id,
-            text=f'Processing Your Link ⌛',
+            text=Translation.CHECK_LINK,
             disable_web_page_preview=True,
             reply_to_message_id=update.message_id
           )
@@ -159,11 +162,11 @@ async def echo(bot, update):
                 if format_string is not None and not "audio only" in format_string:
                     ikeyboard = [
                         InlineKeyboardButton(
-                            " Video " + format_string + " " + approx_file_size + " ",
+                            " Vɪᴅᴇᴏ " + format_string + " " + approx_file_size + " ",
                             callback_data=(cb_string_video).encode("UTF-8")
                         ),
                         InlineKeyboardButton(
-                            " File " + format_ext + " " + approx_file_size + " ",
+                            " Fɪʟᴇ " + format_ext + " " + approx_file_size + " ",
                             callback_data=(cb_string_file).encode("UTF-8")
                         )
                     ]
@@ -181,13 +184,13 @@ async def echo(bot, update):
                     # special weird case :\
                     ikeyboard = [
                         InlineKeyboardButton(
-                            " Video [" +
+                            " Vɪᴅᴇᴏ [" +
                             "] ( " +
                             approx_file_size + " )",
                             callback_data=(cb_string_video).encode("UTF-8")
                         ),
                         InlineKeyboardButton(
-                            " File [" +
+                            " Fɪʟᴇ [" +
                             "] ( " +
                             approx_file_size + " )",
                             callback_data=(cb_string_file).encode("UTF-8")
@@ -200,17 +203,17 @@ async def echo(bot, update):
                 cb_string = "{}|{}|{}|{}".format("audio", "320k", "mp3", randem)
                 inline_keyboard.append([
                     InlineKeyboardButton(
-                        " Mp3 " + "(" + "64 kbps" + ")", callback_data=cb_string_64.encode("UTF-8")),
+                        " Mᴘ𝟹 " + "(" + "64 ᴋʙᴘs" + ")", callback_data=cb_string_64.encode("UTF-8")),
                     InlineKeyboardButton(
-                        " Mp3 " + "(" + "128 kbps" + ")", callback_data=cb_string_128.encode("UTF-8"))
+                        " Mᴘ𝟹 " + "(" + "128 ᴋʙᴘs" + ")", callback_data=cb_string_128.encode("UTF-8"))
                 ])
                 inline_keyboard.append([
                     InlineKeyboardButton(
-                        " Mp3 " + "(" + "320 kbps" + ")", callback_data=cb_string.encode("UTF-8"))
+                        " Mᴘ𝟹 " + "(" + "320 ᴋʙᴘs" + ")", callback_data=cb_string.encode("UTF-8"))
                 ])
                 inline_keyboard.append([                 
                     InlineKeyboardButton(
-                        "♨️ CLOSE", callback_data='close')               
+                        "Cʟᴏsᴇ", callback_data='close')               
                 ])
         else:
             format_id = response_json["format_id"]
