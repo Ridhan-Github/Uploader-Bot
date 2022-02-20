@@ -20,6 +20,7 @@ from hachoir.parser import createParser
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 from pyrogram.errors import UserNotParticipant
 from .functions.ran_text import random_char
+from .functions.forcesub import handle_force_subscribe
 
 @Client.on_message(filters.private & filters.regex(pattern=".*https.*"))
 async def echo(bot, update):
