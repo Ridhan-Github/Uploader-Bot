@@ -24,8 +24,7 @@ async def handle_force_subscribe(bot, message):
     except UserNotParticipant:
         await bot.send_message(
             chat_id=message.from_user.id,
-            text="👋 Hᴇʟʟᴏ, {}\n\n
- Jᴏɪɴ ᴍʏ ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ ᴛᴏ ᴜꜱᴇ ᴍᴇ 🔐!\n\nDᴜᴇ ᴛᴏ Oᴠᴇʀʟᴏᴀᴅ, Oɴʟʏ Cʜᴀɴɴᴇʟ Sᴜʙsᴄʀɪʙᴇʀs Cᴀɴ Usᴇ Mᴇ!",
+            text="👋 Hᴇʟʟᴏ, {} \n\nJᴏɪɴ ᴍʏ ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ ᴛᴏ ᴜꜱᴇ ᴍᴇ 🔐!",
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
