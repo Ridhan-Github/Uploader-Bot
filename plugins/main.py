@@ -23,17 +23,17 @@ sᴇᴛ ᴛʜᴜᴍʙɴᴀɪʟ
 
 ᴅᴇʟᴇᴛɪɴɢ ᴛʜᴜᴍʙɴᴀɪʟ
 
-➠ sᴇɴᴅ /delthumb ᴛᴏ ᴅᴇʟᴇᴛᴇ ᴛʜᴜᴍʙɴᴀɪʟ.
+➠ sᴇɴᴅ /delthumbnail ᴛᴏ ᴅᴇʟᴇᴛᴇ ᴛʜᴜᴍʙɴᴀɪʟ.
 
 sʜᴏᴡ ᴛʜᴜᴍʙɴᴀɪʟ
 
-➠ sᴇɴᴅ /showthumb ᴛᴏ ᴠɪᴇᴡ ᴄᴜsᴛᴏᴍ ᴛʜᴜᴍʙɴᴀɪʟ.
+➠ sᴇɴᴅ /showthumbnail ᴛᴏ ᴠɪᴇᴡ ᴄᴜsᴛᴏᴍ ᴛʜᴜᴍʙɴᴀɪʟ.
 
 Pᴏᴡᴇʀᴇᴅ ʙʏ : [ᴅɪsɴᴇʏ ʙᴏᴛs](https://telegram.me/Disney_Bots)
  
 """
     ABOUT_TEXT = """
-**Mʏ ɴᴀᴍᴇ** : [ᴜʀʟ ᴜᴘʟᴏᴀᴅᴇʀ ᴘʀᴏ](https://t.me/UploaderPro4ubot)
+**Mʏ ɴᴀᴍᴇ** : [ᴜʀʟ ᴜᴘʟᴏᴀᴅᴇʀ ᴘʀᴏ](https://t.me/UploaderrXRobot)
 
 **Cʜᴀɴɴᴇʟ** : [ᴅɪsɴᴇʏ ʙᴏᴛs](https://t.me/Disney_Bots)
 
