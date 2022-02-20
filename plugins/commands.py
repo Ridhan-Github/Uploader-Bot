@@ -8,6 +8,7 @@ from plugins.main import Translation
 from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 from plugins.database.add import add_user_to_database
+from .functions.forcesub import handle_force_subscribe
 
 @Client.on_message(filters.command(["start"]) & filters.private)
 async def start(bot, update):
