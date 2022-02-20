@@ -34,7 +34,7 @@ async def delthumbnail(bot, update):
     await db.set_thumbnail(update.from_user.id, thumbnail=None)
     await bot.send_message(chat_id=update.chat.id, text=Translation.DEL_ETED_CUSTOM_THUMB_NAIL, reply_to_message_id=update.message_id)
 
-@Client.on_message(filters.private & filters.command("showthumb") )
+@Client.on_message(filters.private & filters.command("showthumbnail") )
 async def viewthumbnail(bot, update):
     
     thumbnail = await db.get_thumbnail(update.from_user.id)
