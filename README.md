@@ -38,7 +38,6 @@
 </p>
 
 #railway
-Starter URL
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https%3A%2F%2Fgithub.com%2FRidhan-Github%2FUploader-Bot%2Ftree%2FDev&plugins=mongodb&envs=WEBHOOK%2CTG_BOT_TOKEN%2CAPP_ID%2CAPI_HASH%2COWNER_ID%2CDATABASE_URL%2CSESSION_NAME%2CCHUNK_SIZE%2CHTTP_PROXY&optionalEnvs=HTTP_PROXY&WEBHOOKDesc=Setting+this+to+ANYTHING+will+enable+webhooks+when+in+env+mode&TG_BOT_TOKENDesc=Your+bot+token%2C+as+a+string.&APP_IDDesc=Get+this+value+from+https%3A%2F%2Fmy.telegram.org&API_HASHDesc=Get+this+value+from+https%3A%2F%2Fmy.telegram.org&OWNER_IDDesc=Your+Telegram+ID&DATABASE_URLDesc=Your+MongoDB+URI&SESSION_NAMEDesc=Your+Session+Name&CHUNK_SIZEDesc=chunk+size+that+should+be+used+with+requests&HTTP_PROXYDesc=proxy+for+accessing+youtube-dl+in+GeoRestricted+Areas.+Get+your+own+proxy+from+https%3A%2F%2Fgithub.com%2Frg3%2Fyoutube-dl%2Fissues%2F1091%23issuecomment-230163061&WEBHOOKDefault=ANYTHING&SESSION_NAMEDefault=URL-UPLOADER&CHUNK_SIZEDefault=128&referralCode=Disney)
 
-https://railway.app/new/template?template=https%3A%2F%2Fgithub.com%2Frailwayapp%2Fexamples%2Ftree%2Fmaster%2Fexamples%2Fflask
 
