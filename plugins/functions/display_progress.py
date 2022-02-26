@@ -11,15 +11,15 @@ from pyrogram.errors import FloodWait
 
 PROGRESS = """
 
-📱 Pʀᴏɢʀᴇꜱꜱ : `{0}%`
+**📱 Pʀᴏɢʀᴇꜱꜱ : `{0}%`
 
-✅ Dᴏɴᴇ : `{1}``
+**✅ Dᴏɴᴇ :** `{1}`
 
-🗂️ Sɪᴢᴇ : `{2}`
+**🗂️ Sɪᴢᴇ :** `{2}`
 
-🚀 Sᴘᴇᴇᴅ : `{3}/s`
+**🚀 Sᴘᴇᴇᴅ :** `{3}/s`
 
-⏱️ Eᴛᴀ : `{4}`
+**⏱️ Eᴛᴀ :** `{4}`
 """
 
 async def progress_for_pyrogram(
